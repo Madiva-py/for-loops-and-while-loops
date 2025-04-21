@@ -8,6 +8,14 @@ function writeCards(names, event){
 }
 console.log (writeCards(["Guadalupe", "Ollie", "Aki"], "surprise"));
 
+function countDown(number) {
 
+    for (let i = number; i >= 0; i--) {
+    
+      console.log(i);
+    }
+  }
+  
+  countDown(10)
 
 
